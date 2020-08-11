@@ -2,7 +2,6 @@
 <?php
 
 require_once __DIR__ . '/bootstrap.php';
-
+/** @var string Root directory of the cli project */
 const __ROOT__ = __DIR__;
-
 Cli\Main::main($argc, $argv);
