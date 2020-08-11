@@ -8,9 +8,12 @@ class AbstractMaker
 {
     use PathNormalizerTrait;
 
+    /**
+     * @var string|string[]|null
+     */
     protected $projectPath;
     /**
-     * @var string|string
+     * @var string
      */
     protected $namespace;
 
