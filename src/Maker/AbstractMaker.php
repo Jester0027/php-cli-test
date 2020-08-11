@@ -22,4 +22,9 @@ class AbstractMaker
         $this->projectPath = $this->wp_normalize_path(getcwd());
         $this->namespace = $namespace;
     }
+
+    public function getNamespace()
+    {
+        return $this->namespace;
+    }
 }
