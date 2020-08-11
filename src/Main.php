@@ -13,7 +13,7 @@ class Main
             case "make:controller":
                 $controllerMaker->createController($argv[2]);
                 break;
-            case "hello":
+            case "Hello":
                 echo 'World';
             default:
         }
